@@ -45,13 +45,15 @@ WHERE job_title_short = 'Data Analyst'
 ORDER BY salary_year_avg DESC
 limit 10
 ```
-Here's the breakdown of the top data analyst jobs in 2023:
-- **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
-- **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
-- **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Roles]()
-*Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results*
+Here's a breakdown of senior data analyst roles based on skills and salary trends:
+
+- **💰 Strong Compensation:** Top analyst roles range from **$184K to $256K**, reflecting high salary potential in advanced positions.
+- **📌 Role Tiers:** Clearly defined levels like **Director**, **Principal Analyst**, and **Specialized Analyst** show career progression paths.
+- **🛠 Tech + Business Focus:** Higher roles demand both **technical skills** (SQL, Python, cloud platforms) and **domain/business expertise** (DevOps, project management, Hadoop, etc.).
+
+![Top Paying Roles](https://github.com/wael9922/SQL-Project/blob/main/attachments/Insights2.png)
+*AI generated insight for the result of the query show  Role Level Analysis*
 
 ### 2. Skills for Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
@@ -82,7 +84,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 - **Tableau** is also highly sought after, with a bold count of 6.
 Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying degrees of demand.
 
-![Top Paying Skills]([assets/2_top_paying_roles_skills.png](https://github.com/wael9922/SQL-Project/blob/main/attachments/top%20demanded%20skills.png))
+![Top Paying Skills](https://github.com/wael9922/SQL-Project/blob/main/attachments/top%20demanded%20skills.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 3. In-Demand Skills for Data Analysts
